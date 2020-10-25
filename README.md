@@ -27,12 +27,14 @@ Tipos de Variables
 
   Variable tipo Map
     Definición en el archivo main.tf
+
       variable "mymap"{
           type = map(string)
           default = {
               mykey ="my value"
           }
       }
+      
     Para imprimir todo el map 
       var.mymap
     Para imprimir un campo especifico
