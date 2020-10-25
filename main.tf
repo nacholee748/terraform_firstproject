@@ -1,5 +1,4 @@
 variable "myvar"{
-    type = "string"
     default = "hello terraform"
 }
 
@@ -8,4 +7,9 @@ variable "mymap"{
     default = {
         mykey ="my value"
     }
+}
+
+variable "mylist"{
+    type = list
+    default = [1,2,3]
 }

@@ -1,0 +1,1 @@
+AWSREGION="us-east-1"
